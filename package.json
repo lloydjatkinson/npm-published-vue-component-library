@@ -1,13 +1,22 @@
 {
   "name": "npm-published-vue-component-library",
+  "main": "dist/myLib.common.js",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
+  "files": [
+    "dist/myLib.common.js",
+    "dist/myLib.common.js,map",
+    "dist/myLib.css",
+    "dist/myLib.umd.js",
+    "dist/myLib.umd.js.map",
+    "dist/myLib.umd.min.js",
+    "dist/myLib.umd.min.js.map"
+  ],
   "dependencies": {
     "spectre.css": "^0.5.7",
     "vue": "^2.5.17"
